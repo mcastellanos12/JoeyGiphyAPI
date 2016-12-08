@@ -1,0 +1,31 @@
+#wordView {
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+h1 {
+	padding-left: 30px;
+	font-family: helvetica;
+
+}
+
+p {
+	padding-left: 15px;
+	font-family: helvetica;
+}
+
+#topicForm {
+
+	padding-left: 15px;
+	font-family: helvetica;
+}
+
+#wordView {
+	padding-left: 15px;
+	font-family: helvetica;
+}
+
+#gifView {
+	padding-left: 15px;
+}
