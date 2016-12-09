@@ -54,7 +54,7 @@ $(document).ready(function() {
 
         $('#gifView').empty();
         var newWord = $(this).attr('data-name'); // grab and store the data-word property from the button
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + newWord + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0"; 
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + newWord + "&api_key=dc6zaTOxFJmzC&limit=10&offset=0"; 
 
         //performing an AJAX request with the queryURL (Dynamic Elements assignment) 
         $.ajax({ 
